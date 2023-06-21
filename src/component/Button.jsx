@@ -6,7 +6,8 @@ function Button(props) {
     <div>
       <h3>x + {props.counter}</h3>
       <p>{props.nomor}</p>
-      <button onClick={props.handlerNomor}>tambah</button>
+      <button onClick={props.plusNomor}>tambah</button>
+      <button onClick={props.minNomor}>minus</button>
     </div>
   );
 }
